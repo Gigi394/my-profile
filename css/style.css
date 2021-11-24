@@ -1,0 +1,157 @@
+body {
+  font-size: 18px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(248, 241, 241);
+}
+
+img {
+	border-radius: 100%;
+	width: 500px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	color: rgb(235, 94, 11);
+}
+
+h3 {
+	font-size: 50px;
+	color: rgb(94, 170, 168);
+	border: 3px solid rgb(94, 170, 168) ;
+	border-radius: 30px;
+	margin: 30px 480px 20px;
+}
+
+h4 {
+	font-size: 35px;
+	color: rgb(163, 210, 202);
+	margin: 25px;
+}
+
+h5 {
+	font-size: 20px;
+	padding-right: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin: 2px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+	display: flex;
+  margin: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titre {
+	display: inline-block;
+	margin: 20px;
+}
+
+.card2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.element-contact {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.liste {
+	display: table-column;
+	justify-content: center;
+	line-height: 3;
+}
+
+.card3 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+}
+
+.card4 {
+	display: block;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.tab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+
+@media (max-device-width: 540px) {
+	.card {
+		display: block;
+	}
+
+	.card2 {
+		display: block;
+		font-size: 30px;
+	}
+
+	.element-contact {
+		justify-content: center;
+	}
+
+	.card3 {
+		display: grid;
+		align-items: center;
+	}
+
+	.tab {
+		display: block;
+		justify-content: center;
+	}
+
+	h1 {
+		font-size: 100px;
+	}
+
+	h2 {
+		font-size: 60px;
+	}
+
+	h3 {
+		font-size: 100px;
+		margin: 20px 200px 5px;
+	}
+
+	h4 {
+		font-size: 50px;
+	}
+
+	h5 {
+		font-size: 30px;
+		line-height: 1;
+		padding: 30px;
+	}
+	
+	h6 {
+		font-size: 20px;
+	}
+}
